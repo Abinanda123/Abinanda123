@@ -1,6 +1,6 @@
 # Abinanda — Full Stack Developer
 
-CS student at Assam down town University | Placement 2026
+CSE student at Assam down town University | 
 
 ## Projects
 
