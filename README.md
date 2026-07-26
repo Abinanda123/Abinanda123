@@ -1,51 +1,97 @@
-# Abinanda — Full Stack Developer
+<h1 align="center">Hi 👋, I'm Takhellambam Abinanda Singh</h1>
+<h3 align="center">A passionate Full Stack Developer from Assam, India</h3>
 
-CSE student at Assam down town University | 
+<br/>
 
-## Projects
+<h2 align="center">🚀 Projects</h2>
 
-### 🤖 AI Resume Optimizer — RAG System
-An AI-powered job portal that automatically tailors resumes and generates cover letters for specific job listings using RAG architecture.
+<h3>🤖 AI Resume Optimizer — RAG System</h3>
+<p>An AI-powered job portal that automatically tailors resumes and generates cover letters for specific job listings using Retrieval-Augmented Generation (RAG) architecture.</p>
 
 **What it does:**
-- Upload your base resume (PDF) once
-- Search real Indian job listings powered by Adzuna API
-- AI automatically tailors your resume for each specific job
-- Generates a custom cover letter per job application
-- Calculates ATS (Applicant Tracking System) score — shows how well your resume matches the job
-- Highlights missing keywords recruiters are looking for
-- Download tailored resume and cover letter instantly
-- Save and manage multiple resume versions
+- 📄 Upload your base resume (PDF) once
+- 🔍 Search real Indian job listings via Adzuna API
+- 🤖 AI automatically tailors your resume for each specific job
+- ✉️ Generates a custom cover letter per job application
+- 📊 Calculates ATS score to show how well your resume matches the job
+- 🔑 Highlights missing keywords recruiters are looking for
+- ⬇️ Download the tailored resume and cover letter instantly
 
-**How the RAG works:**
-Resume is chunked into 200-word sections → each chunk converted to 3072-dimension vector embeddings using Gemini API → stored in Pinecone vector database → when a job is selected, job description is converted to embedding → cosine similarity search retrieves the 5 most relevant resume sections → Llama 3 (via Groq) rewrites resume using retrieved context
+**RAG Architecture:** Resume chunked into 200-word sections → converted to 3072-dimension vector embeddings (Gemini API) → stored in Pinecone vector database → job description converted to embedding → cosine similarity retrieves top 5 relevant resume sections → Llama 3.3 70B (Groq) rewrites resume using retrieved context
 
-- **Live:** [https://resume-optimizer-frontend-jade.vercel.app/]
-- **Stack:** React · Node.js · Express · MongoDB · Pinecone · Gemini Embeddings · Groq (Llama 3.3 70B) · Adzuna API · JWT Auth · Tailwind CSS · React Router
-- **Code:** [Frontend](your frontend repo) | [Backend](your backend repo)
+🔗 **Live:** [[https://resume-optimizer-frontend-jade.vercel.app/](https://resume-optimizer-frontend-jade.vercel.app/)] | **Code:** [Frontend Repository Link] | [Backend Repository Link]
 
 ---
 
-### 🔥 Habit Tracker — Full Stack SaaS
-A productivity app for tracking daily habits with streak analytics and completion dashboard.
+<h3>🔥 Habit Tracker — Full Stack SaaS</h3>
+<p>A full-stack productivity application for tracking daily habits, featuring streak analytics and a comprehensive weekly completion dashboard.</p>
 
 **What it does:**
-- Create and manage daily habits
-- Mark habits complete each day
-- Streak engine — calculates consecutive completion days
-- Weekly analytics dashboard showing completion trends
-- JWT authentication — each user sees only their own habits
-- Fully responsive mobile design
+- ✅ Create, manage, and track daily habits
+- 🔥 Streak engine calculates consecutive completion days
+- 📈 Weekly analytics dashboard visualizing completion trends
+- 🔐 Secure JWT authentication ensures data privacy and strict user ownership
+- 📱 Fully responsive, mobile-first design
 
-- **Live:** [https://habit-tracker-frontend-nine-lyart.vercel.app](https://habit-tracker-frontend-nine-lyart.vercel.app)
-- **Stack:** React · Node.js · Express · MongoDB · JWT · bcrypt · Tailwind CSS
-- **Code:** [Frontend](your frontend repo) | [Backend](your backend repo)
+🔗 **Live:** [View Application](https://habit-tracker-frontend-nine-lyart.vercel.app) | **Code:** [Frontend Repository Link] | [Backend Repository Link]
 
 ---
 
-## Skills
-**Frontend:** React · Tailwind CSS · React Router · Axios  
-**Backend:** Node.js · Express · REST APIs · JWT Authentication · bcrypt  
-**Database:** MongoDB · Mongoose · Pinecone (Vector DB)  
-**AI/ML:** RAG Architecture · Vector Embeddings · LLM Integration · Prompt Engineering  
-**Tools:** Git · Vercel · Render · MongoDB Atlas · Postman
+<h2 align="center">🛠️ Languages and Tools</h2>
+<p align="center">
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="40" height="40"/>
+  </a>
+  <a href="https://nodejs.org" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="40" height="40"/>
+  </a>
+  <a href="https://expressjs.com" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express" width="40" height="40"/>
+  </a>
+  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" height="40"/>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
+  </a>
+  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="40" height="40"/>
+  </a>
+  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40"/>
+  </a>
+  <a href="https://www.python.org" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
+  </a>
+  <a href="https://www.java.com" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
+  </a>
+  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer">
+    <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="MSSQL" width="40" height="40"/>
+  </a>
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/>
+  </a>
+</p>
+
+---
+
+<h2 align="center">📊 GitHub Stats</h2>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Abinanda123&show_icons=true&theme=tokyonight" alt="GitHub Stats"/>
+</p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abinanda123&layout=compact&theme=tokyonight" alt="Top Languages"/>
+</p>
+
+---
+
+<h3 align="center">🤝 Connect with me</h3>
+<p align="center">
+  <a href="[https://www.linkedin.com/in/takhellambam-abinanda-singh-8a6403292/]" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:[akima2066@gmail.com]" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
