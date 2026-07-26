@@ -76,16 +76,6 @@
 
 ---
 
-<h2 align="center">📊 GitHub Stats</h2>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Abinanda123&show_icons=true&theme=tokyonight" alt="GitHub Stats"/>
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abinanda123&layout=compact&theme=tokyonight" alt="Top Languages"/>
-</p>
-
----
-
 <h3 align="center">🤝 Connect with me</h3>
 <p align="center">
   <a href="https://www.linkedin.com/in/takhellambam-abinanda-singh-8a6403292/" target="_blank">
