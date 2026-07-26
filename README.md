@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Takhellambam Abinanda Singh</h1>
-<h3 align="center">A passionate Full Stack Developer from Assam, India</h3>
+<h3 align="center">A passionate Full Stack Developer from India</h3>
 
 <br/>
 
@@ -19,7 +19,7 @@
 
 **RAG Architecture:** Resume chunked into 200-word sections → converted to 3072-dimension vector embeddings (Gemini API) → stored in Pinecone vector database → job description converted to embedding → cosine similarity retrieves top 5 relevant resume sections → Llama 3.3 70B (Groq) rewrites resume using retrieved context
 
-🔗 **Live:** [[https://resume-optimizer-frontend-jade.vercel.app/](https://resume-optimizer-frontend-jade.vercel.app/)] | **Code:** [Frontend Repository Link] | [Backend Repository Link]
+🔗 **Live:** [View Application](https://resume-optimizer-frontend-jade.vercel.app/) | 🔒 **Code:** Private Repository
 
 ---
 
@@ -33,7 +33,7 @@
 - 🔐 Secure JWT authentication ensures data privacy and strict user ownership
 - 📱 Fully responsive, mobile-first design
 
-🔗 **Live:** [View Application](https://habit-tracker-frontend-nine-lyart.vercel.app) | **Code:** [Frontend Repository Link] | [Backend Repository Link]
+🔗 **Live:** [View Application](https://habit-tracker-frontend-nine-lyart.vercel.app) | 🔒 **Code:** Private Repository
 
 ---
 
@@ -88,10 +88,10 @@
 
 <h3 align="center">🤝 Connect with me</h3>
 <p align="center">
-  <a href="[https://www.linkedin.com/in/takhellambam-abinanda-singh-8a6403292/]" target="_blank">
+  <a href="https://www.linkedin.com/in/takhellambam-abinanda-singh-8a6403292/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:[akima2066@gmail.com]" target="_blank">
+  <a href="mailto:akima2066@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
