@@ -1,61 +1,70 @@
-# Hi, I'm Takhellambam Abinanda Singh 👋
+# Takhellambam Abinanda Singh
 
-I'm a full-stack developer from India who builds practical web applications with JavaScript, React, Node.js, and AI-assisted workflows.
+**Full-stack developer building AI systems, backend services, and security-focused web applications.**
 
-I enjoy turning real problems into clean, accessible products—from productivity tools and developer utilities to AI-powered job-search experiences.
+[Portfolio](https://portfolio-site-hazel-eight-38.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/takhellambam-abinanda-singh-8a6403292/) · [Email](mailto:akima2066@gmail.com)
 
-## Featured projects
+I build end-to-end products with React, Node.js, MongoDB, and modern AI infrastructure. My recent work focuses on retrieval-augmented generation, API design, authentication, log analysis, and interfaces that are useful in practice.
 
-### AI Resume Optimizer
+## Selected work
+
+### [AI Resume Optimizer](https://resume-optimizer-frontend-jade.vercel.app/)
 
 An AI-powered job-search platform that tailors resumes and generates cover letters for specific job listings.
 
-- Retrieval-Augmented Generation (RAG) workflow
-- Resume embeddings and semantic retrieval with Pinecone
-- Job search integration with Adzuna
-- ATS scoring and keyword-gap analysis
-- Live app: [resume-optimizer-frontend-jade.vercel.app](https://resume-optimizer-frontend-jade.vercel.app/)
+- RAG pipeline using Gemini embeddings and Pinecone vector search
+- Job discovery through the Adzuna API
+- Llama 3.3 generation through Groq
+- ATS-style scoring and missing-keyword analysis
+- React frontend with a Node.js/Express backend
 
-### Habit Tracker
-
-A full-stack productivity application for habit management, streak tracking, and weekly analytics.
-
-- JWT authentication and protected user data
-- Streak calculation and completion analytics
-- Responsive, mobile-first interface
-- Live app: [habit-tracker-frontend-nine-lyart.vercel.app](https://habit-tracker-frontend-nine-lyart.vercel.app/)
-
-### [Fork & Seat](https://github.com/Abinanda123/restaurant-table-reservation-system)
-
-A full-stack restaurant reservation system with restaurant discovery, table availability checks, bookings, email confirmations, and an admin dashboard.
+[Frontend repository](https://github.com/Abinanda123/resume-optimizer-frontend) · [Backend repository](https://github.com/Abinanda123/resume-optimizer-backend)
 
 ### [Security Log Analyzer](https://github.com/Abinanda123/security-log-analyzer)
 
-A security-focused application for analyzing logs and surfacing suspicious activity through a practical web interface.
+A full-stack dashboard for analyzing Apache and Nginx access logs.
 
-### [GitHub Search](https://github.com/Abinanda123/github-search)
+- Detects SQL injection, brute-force, and 404-flood patterns
+- Uses rule-based detection with AI-assisted explanations
+- Visualizes findings with React and Recharts
+- Includes automated backend tests with Vitest
 
-A React application for searching GitHub users, viewing profile details, handling loading and error states, and linking directly to profiles.
+### [Habit Tracker](https://habit-tracker-frontend-nine-lyart.vercel.app/)
 
-### [Portfolio Website](https://github.com/Abinanda123/portfolio-site)
+A full-stack productivity application for habit management, streak tracking, and weekly analytics.
 
-My personal portfolio, featuring project highlights, responsive navigation, and dark-mode support.
+- JWT authentication and bcrypt password hashing
+- Protected CRUD APIs with ownership checks
+- Dynamic streak calculations
+- React, Express, MongoDB, Axios, and Recharts
 
-## Tech stack
+[Frontend repository](https://github.com/Abinanda123/habit-tracker-frontend) · [Backend repository](https://github.com/Abinanda123/habit-tracker-backend)
 
-**Frontend:** React, JavaScript, HTML, CSS, Tailwind CSS  
-**Backend:** Node.js, Express, REST APIs  
-**Data & AI:** MongoDB, SQL, Pinecone, RAG workflows  
-**Tools:** Git, GitHub, Vite, Vercel
+### [Fork & Seat](https://github.com/Abinanda123/restaurant-table-reservation-system)
 
-## What I'm working toward
+A restaurant reservation platform with customer and admin workflows.
 
-- Building production-quality full-stack applications
-- Improving system design, testing, and accessibility
-- Creating useful AI features with reliable data flows
-- Growing a focused portfolio of well-documented projects
+- Restaurant discovery and availability checks
+- Reservation management and email confirmations
+- Role-based admin dashboard
+- Express, React, MongoDB, JWT, Nodemailer, and rate limiting
 
-## Connect
+## Technical focus
 
+- **Languages:** JavaScript, TypeScript, Python, Java, SQL
+- **Frontend:** React, Vite, Tailwind CSS, responsive UI
+- **Backend:** Node.js, Express, REST APIs, JWT, bcrypt
+- **Data and AI:** MongoDB, Supabase, Pinecone, Gemini, Groq, RAG
+- **Engineering:** Git, GitHub, testing, API security, deployment with Vercel and Render
+
+## Currently
+
+- Completing my B.Tech in Computer Science and Engineering
+- Building production-minded full-stack and AI projects
+- Open to software engineering, backend, AI, and security opportunities
+
+## Contact
+
+- [Portfolio](https://portfolio-site-hazel-eight-38.vercel.app/)
 - [LinkedIn](https://www.linkedin.com/in/takhellambam-abinanda-singh-8a6403292/)
 - [Email](mailto:akima2066@gmail.com)
